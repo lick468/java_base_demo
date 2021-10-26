@@ -41,8 +41,8 @@ public class LamdaMain {
         for (int i = 1; i < 6; i++) {
             User user = new User();
             user.setUsername("测试" + i + "号");
-            user.setAge(random.nextInt(100));
-            user.setGender(random.nextInt(2));
+            user.setAge(random.nextInt(100)); // 随机生成100以内的整数 [0,100)
+            user.setGender(random.nextInt(2));// 随机生成2以内的整数 [0,2)
             userList.add(user);
         }
 
