@@ -36,6 +36,10 @@ public class LamdaMain {
     }
 
 
+    /**
+     * 生成一些用户信息
+     * @param userList 用户列表
+     */
     public static void initUserList(List<User> userList) {
         Random random = new Random();
         for (int i = 1; i < 6; i++) {
