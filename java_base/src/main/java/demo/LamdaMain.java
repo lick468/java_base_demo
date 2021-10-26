@@ -36,7 +36,7 @@ public class LamdaMain {
     }
 
 
-    public static List<User> initUserList(List<User> userList) {
+    public static void initUserList(List<User> userList) {
         Random random = new Random();
         for (int i = 1; i < 6; i++) {
             User user = new User();
@@ -46,6 +46,5 @@ public class LamdaMain {
             userList.add(user);
         }
 
-        return userList;
     }
 }
